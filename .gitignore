@@ -1,0 +1,35 @@
+# Go build
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.test
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local configs & secrets
+*.local
+*.env
+.env*
+
+# SQLite DB & k3s/config
+*.db
+cmdb.db
+**/k3s.yaml
+**/.kube/config
+
+# Go modules cache (optional)
+vendor/
+
